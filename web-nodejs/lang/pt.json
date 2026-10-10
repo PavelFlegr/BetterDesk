@@ -193,7 +193,23 @@
         "view_audit_log": "View audit log",
         "activity_load_error": "Could not load recent activity",
         "client_host_env_badge": "From env",
-        "client_host_settings_link": "Open Settings → Public client endpoints"
+        "client_host_settings_link": "Abrir definições → Endpoints públicos do cliente",
+        "activate_agent_qr": "Ativar agente",
+        "activate_agent_qr_hint": "Leia o QR do agente BetterDesk Support genérico e atribua a organização e a pasta.",
+        "activate_agent_choose_image": "Escolher imagem QR",
+        "activate_agent_scanning": "Aponte a câmara para o QR do agente.",
+        "activate_agent_camera_unavailable": "A leitura QR pela câmara não está disponível. Escolha uma imagem QR.",
+        "activate_agent_camera_denied": "O acesso à câmara foi recusado.",
+        "activate_agent_qr_invalid": "Este não é um código QR válido de agente BetterDesk.",
+        "activate_agent_loading": "A verificar o agente pendente…",
+        "activate_agent_not_pending": "Este agente não está à espera de ativação.",
+        "activate_agent_ready": "Escolha o nome e a pasta do dispositivo e ative-o.",
+        "activate_agent_name": "Nome do dispositivo",
+        "activate_agent_folder": "Pasta",
+        "activate_agent_folder_none": "Sem pasta",
+        "activate_agent_submit": "Ativar dispositivo",
+        "activate_agent_submitting": "A ativar dispositivo…",
+        "activate_agent_success": "Agente ativado com sucesso."
     },
     "devices": {
         "title": "Dispositivos",
@@ -942,7 +958,10 @@
             "slug_taken": "Este link curto já é usado por outro pacote",
             "missing_hash": "Bundle has no branding hash — save the bundle first",
             "unsupported_platform": "Unsupported platform/format for rebuild",
-            "platforms_required": "Selecione pelo menos uma plataforma para compilar"
+            "platforms_required": "Selecione pelo menos uma plataforma para compilar",
+            "no_supported_targets": "Não há destinos de compilação disponíveis no momento. Verifique a configuração do builder.",
+            "toolchain_missing": "Faltam ferramentas de compilação necessárias: {{tools}}",
+            "platform_unavailable": "Este destino não está disponível no builder configurado."
         },
         "legacy_title": "Gerador de configuração do cliente",
         "connection_section": "Ligação al servidor",

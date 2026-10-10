@@ -199,7 +199,23 @@
         "view_audit_log": "View audit log",
         "activity_load_error": "Could not load recent activity",
         "client_host_env_badge": "From env",
-        "client_host_settings_link": "Open Settings → Public client endpoints"
+        "client_host_settings_link": "Beállítások megnyitása → Nyilvános kliensvégpontok",
+        "activate_agent_qr": "Ügynök aktiválása",
+        "activate_agent_qr_hint": "Olvassa be az általános BetterDesk Support ügynök QR-kódját, majd rendelje hozzá a szervezetet és a mappát.",
+        "activate_agent_choose_image": "QR-kép kiválasztása",
+        "activate_agent_scanning": "Irányítsa a kamerát az ügynök QR-kódjára.",
+        "activate_agent_camera_unavailable": "A kamerás QR-olvasás nem érhető el. Válasszon QR-képet.",
+        "activate_agent_camera_denied": "A kameraengedély megtagadva.",
+        "activate_agent_qr_invalid": "Ez nem érvényes BetterDesk ügynök QR-kód.",
+        "activate_agent_loading": "Függő ügynök ellenőrzése…",
+        "activate_agent_not_pending": "Ez az ügynök nem vár aktiválásra.",
+        "activate_agent_ready": "Válassza ki az eszköz nevét és mappáját, majd aktiválja.",
+        "activate_agent_name": "Eszköz neve",
+        "activate_agent_folder": "Mappa",
+        "activate_agent_folder_none": "Nincs mappa",
+        "activate_agent_submit": "Eszköz aktiválása",
+        "activate_agent_submitting": "Eszköz aktiválása…",
+        "activate_agent_success": "Az ügynök aktiválása sikeres."
     },
     "devices": {
         "title": "Eszközök",
@@ -948,7 +964,10 @@
             "slug_taken": "Ezt a rövid linket már egy másik csomag használja",
             "missing_hash": "Bundle has no branding hash — save the bundle first",
             "unsupported_platform": "Unsupported platform/format for rebuild",
-            "platforms_required": "Válasszon legalább egy buildelendő platformot"
+            "platforms_required": "Válasszon legalább egy buildelendő platformot",
+            "no_supported_targets": "Jelenleg nincs elérhető buildcél. Ellenőrizze a builder beállításait.",
+            "toolchain_missing": "Hiányoznak a szükséges buildeszközök: {{tools}}",
+            "platform_unavailable": "Ez a cél nem érhető el a konfigurált builderből."
         },
         "legacy_title": "Klienskonfiguráció-generátor",
         "connection_section": "Szerver kapcsolat",

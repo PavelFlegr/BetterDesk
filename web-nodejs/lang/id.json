@@ -199,7 +199,23 @@
         "view_audit_log": "View audit log",
         "activity_load_error": "Could not load recent activity",
         "client_host_env_badge": "From env",
-        "client_host_settings_link": "Open Settings → Public client endpoints"
+        "client_host_settings_link": "Buka Pengaturan → Endpoint publik klien",
+        "activate_agent_qr": "Aktifkan agen",
+        "activate_agent_qr_hint": "Pindai QR agen BetterDesk Support umum, lalu tetapkan organisasi dan folder.",
+        "activate_agent_choose_image": "Pilih gambar QR",
+        "activate_agent_scanning": "Arahkan kamera ke QR agen.",
+        "activate_agent_camera_unavailable": "Pemindaian QR dengan kamera tidak tersedia. Pilih gambar QR.",
+        "activate_agent_camera_denied": "Akses kamera ditolak.",
+        "activate_agent_qr_invalid": "Ini bukan kode QR agen BetterDesk yang valid.",
+        "activate_agent_loading": "Memeriksa agen yang menunggu…",
+        "activate_agent_not_pending": "Agen ini tidak menunggu aktivasi.",
+        "activate_agent_ready": "Pilih nama perangkat dan folder, lalu aktifkan.",
+        "activate_agent_name": "Nama perangkat",
+        "activate_agent_folder": "Folder",
+        "activate_agent_folder_none": "Tanpa folder",
+        "activate_agent_submit": "Aktifkan perangkat",
+        "activate_agent_submitting": "Mengaktifkan perangkat…",
+        "activate_agent_success": "Agen berhasil diaktifkan."
     },
     "devices": {
         "title": "Perangkat",
@@ -948,7 +964,10 @@
             "slug_taken": "Tautan pendek ini sudah digunakan paket lain",
             "missing_hash": "Bundle has no branding hash — save the bundle first",
             "unsupported_platform": "Unsupported platform/format for rebuild",
-            "platforms_required": "Pilih setidaknya satu platform untuk dibangun"
+            "platforms_required": "Pilih setidaknya satu platform untuk dibangun",
+            "no_supported_targets": "Saat ini tidak ada target build yang tersedia. Periksa konfigurasi builder.",
+            "toolchain_missing": "Alat build yang diperlukan tidak ditemukan: {{tools}}",
+            "platform_unavailable": "Target ini tidak tersedia dari builder yang dikonfigurasi."
         },
         "legacy_title": "Generator Konfigurasi Klien",
         "connection_section": "Koneksi server",

@@ -197,7 +197,23 @@
         "view_audit_log": "View audit log",
         "activity_load_error": "Could not load recent activity",
         "client_host_env_badge": "From env",
-        "client_host_settings_link": "Open Settings → Public client endpoints"
+        "client_host_settings_link": "Ouvrir les paramètres → Points de terminaison publics du client",
+        "activate_agent_qr": "Activer l’agent",
+        "activate_agent_qr_hint": "Scannez le QR de l’agent BetterDesk Support générique, puis attribuez son organisation et son dossier.",
+        "activate_agent_choose_image": "Choisir une image QR",
+        "activate_agent_scanning": "Pointez la caméra vers le QR de l’agent.",
+        "activate_agent_camera_unavailable": "Le scan QR par caméra est indisponible. Choisissez une image QR.",
+        "activate_agent_camera_denied": "L’accès à la caméra a été refusé.",
+        "activate_agent_qr_invalid": "Ce QR n’est pas un code valide d’agent BetterDesk.",
+        "activate_agent_loading": "Vérification de l’agent en attente…",
+        "activate_agent_not_pending": "Cet agent n’attend pas d’activation.",
+        "activate_agent_ready": "Choisissez le nom et le dossier de l’appareil, puis activez-le.",
+        "activate_agent_name": "Nom de l’appareil",
+        "activate_agent_folder": "Dossier",
+        "activate_agent_folder_none": "Aucun dossier",
+        "activate_agent_submit": "Activer l’appareil",
+        "activate_agent_submitting": "Activation de l’appareil…",
+        "activate_agent_success": "Agent activé avec succès."
     },
     "devices": {
         "title": "Tableau de bord",
@@ -965,7 +981,10 @@
             "slug_taken": "Dieser kurze Link wird bereits von einem anderen Paket verwendet",
             "missing_hash": "Bundle has no branding hash — save the bundle first",
             "unsupported_platform": "Unsupported platform/format for rebuild",
-            "platforms_required": "Sélectionnez au moins une plateforme à compiler"
+            "platforms_required": "Sélectionnez au moins une plateforme à compiler",
+            "no_supported_targets": "Aucune cible de compilation n’est actuellement disponible. Vérifiez la configuration du générateur.",
+            "toolchain_missing": "Outils de compilation requis manquants : {{tools}}",
+            "platform_unavailable": "Cette cible n’est pas disponible avec le générateur configuré."
         },
         "legacy_title": "Client-Konfigurationsgenerator",
         "config_options": "Options de configuration",
