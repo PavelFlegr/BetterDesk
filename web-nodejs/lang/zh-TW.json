@@ -580,6 +580,8 @@
         "oidc_desc": "通過 OpenID Connect 提供商配置單點登錄 (Azure AD、Okta、Google、Keycloak 等)。",
         "oidc_enabled": "啓用 OIDC 身份驗證",
         "oidc_enabled_hint": "允許用戶通過外部身份提供商登錄",
+        "oidc_prefer_sso": "優先使用 SSO 登入",
+        "oidc_prefer_sso_hint": "啟用 OIDC 後自動啟動 SSO。若要使用本機密碼登入，請使用 /login?autoLaunch=0 或私人網路位址。",
         "oidc_provider": "身份提供商",
         "oidc_display_name": "按鈕顯示名稱",
         "oidc_display_name_hint": "登錄按鈕上顯示的文本 (例如 Azure AD、Okta)",

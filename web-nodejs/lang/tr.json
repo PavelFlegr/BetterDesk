@@ -578,6 +578,8 @@
         "oidc_desc": "Bir OpenID Connect sağlayıcısı (Azure AD, Okta, Google, Keycloak vb.) aracılığıyla Tekli Oturum Açma'yı yapılandırın.",
         "oidc_enabled": "OIDC Kimlik Doğrulamasını Etkinleştir",
         "oidc_enabled_hint": "Kullanıcıların harici bir kimlik sağlayıcıyla oturum açmasına izin ver",
+        "oidc_prefer_sso": "SSO girişini tercih et",
+        "oidc_prefer_sso_hint": "OIDC etkin olduğunda SSO'yu otomatik başlatın. Yerel parola girişi için /login?autoLaunch=0 veya özel bir ağ adresi kullanın.",
         "oidc_provider": "Kimlik Sağlayıcı",
         "oidc_display_name": "Düğme Görünen Adı",
         "oidc_display_name_hint": "Oturum açma düğmesinde gösterilen metin (ör. Azure AD, Okta)",

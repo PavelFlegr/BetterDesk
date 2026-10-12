@@ -578,6 +578,8 @@
         "oidc_desc": "Configure Single Sign-On via an OpenID Connect provider (Azure AD, Okta, Google, Keycloak, etc.).",
         "oidc_enabled": "Aktiver OIDC-autentisering",
         "oidc_enabled_hint": "Allow users to sign in with an external identity provider",
+        "oidc_prefer_sso": "Foretrekk SSO-pålogging",
+        "oidc_prefer_sso_hint": "Start SSO automatisk når OIDC er aktivert. Bruk /login?autoLaunch=0 eller en privat nettverksadresse for lokal pålogging med passord.",
         "oidc_provider": "Identitetsleverandør",
         "oidc_display_name": "Visningsnavn på knapp",
         "oidc_display_name_hint": "Text shown on the login button (e.g. Azure AD, Okta)",

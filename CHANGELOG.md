@@ -1,7 +1,11 @@
 ## [Unreleased]
 
 ### Changed
-- _(none yet)_
+- **OIDC SSO-first login and role administration (#443):** OIDC can now launch
+  SSO automatically, while `/login?autoLaunch=0` and private network access
+  retain the local password form for recovery. Administrators can change roles
+  for OIDC users; the selected role persists unless an explicit OIDC group-role
+  mapping matches on a later login. Password changes remain provider-managed.
 
 ---
 

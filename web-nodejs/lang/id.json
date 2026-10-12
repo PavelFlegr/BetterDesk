@@ -578,6 +578,8 @@
         "oidc_desc": "Konfigurasikan Single Sign-On melalui penyedia OpenID Connect (Azure AD, Okta, Google, Keycloak, dll.).",
         "oidc_enabled": "Aktifkan Otentikasi OIDC",
         "oidc_enabled_hint": "Izinkan pengguna masuk dengan penyedia identitas eksternal",
+        "oidc_prefer_sso": "Utamakan login SSO",
+        "oidc_prefer_sso_hint": "Mulai SSO secara otomatis saat OIDC diaktifkan. Gunakan /login?autoLaunch=0 atau alamat jaringan privat untuk login lokal dengan kata sandi.",
         "oidc_provider": "Penyedia Identitas",
         "oidc_display_name": "Nama Tampilan Tombol",
         "oidc_display_name_hint": "Teks yang ditampilkan pada tombol masuk (misalnya Azure AD, Okta)",

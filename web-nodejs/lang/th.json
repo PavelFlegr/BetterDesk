@@ -577,6 +577,8 @@
         "oidc_title": "OIDC / OAuth2 (SSO)",
         "oidc_desc": "กำหนดค่าการลงชื่อเพียงครั้งเดียวผ่านผู้ให้บริการ OpenID Connect (Azure AD, Okta, Google, Keycloak ฯลฯ)",
         "oidc_enabled": "เปิดใช้งานการตรวจสอบสิทธิ์ OIDC",
+        "oidc_prefer_sso": "ต้องการเข้าสู่ระบบด้วย SSO",
+        "oidc_prefer_sso_hint": "เริ่ม SSO โดยอัตโนมัติเมื่อเปิดใช้งาน OIDC ใช้ /login?autoLaunch=0 หรือที่อยู่เครือข่ายส่วนตัวเพื่อเข้าสู่ระบบด้วยรหัสผ่านในเครื่อง",
         "oidc_enabled_hint": "อนุญาตให้ผู้ใช้ลง���ื่อเข้าใช้ด้วยผู้ให้บริการข้อมูลประจำตัวภายนอก",
         "oidc_provider": "ผู้ให้บริการข้อมูลประจำตัว",
         "oidc_display_name": "ชื่อที่แสดงของปุ่ม",

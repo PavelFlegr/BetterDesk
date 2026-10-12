@@ -580,6 +580,8 @@
         "oidc_desc": "Konfigurieren Sie Single Sign-On über einen OpenID-Connect-Anbieter (Azure AD, Okta, Google, Keycloak usw.).",
         "oidc_enabled": "OIDC-Authentifizierung aktivieren",
         "oidc_enabled_hint": "Benutzern erlauben, sich mit einem externen Identitätsanbieter anzumelden",
+        "oidc_prefer_sso": "Privilégier la connexion SSO",
+        "oidc_prefer_sso_hint": "Démarrer automatiquement le SSO lorsque OIDC est activé. Utilisez /login?autoLaunch=0 ou une adresse réseau privée pour la connexion locale par mot de passe.",
         "oidc_provider": "Identitätsanbieter",
         "oidc_display_name": "Anzeigename der Schaltfläche",
         "oidc_display_name_hint": "Text auf der Anmeldeschaltfläche (z. B. Azure AD, Okta)",

@@ -578,6 +578,8 @@
         "oidc_desc": "Định cấu hình Đăng nhập một lần thông qua nhà cung cấp OpenID Connect (Azure AD, Okta, Google, Keycloak, v.v.).",
         "oidc_enabled": "Kích hoạt xác thực OIDC",
         "oidc_enabled_hint": "Cho phép người dùng đăng nhập bằng nhà cung cấp danh tính bên ngoài",
+        "oidc_prefer_sso": "Ưu tiên đăng nhập SSO",
+        "oidc_prefer_sso_hint": "Tự động khởi chạy SSO khi OIDC được bật. Dùng /login?autoLaunch=0 hoặc địa chỉ mạng riêng để đăng nhập cục bộ bằng mật khẩu.",
         "oidc_provider": "Nhà cung cấp danh tính",
         "oidc_display_name": "Tên hiển thị nút",
         "oidc_display_name_hint": "Văn bản hiển thị trên nút đăng nhập (ví dụ: Azure AD, Okta)",

@@ -609,6 +609,8 @@
         "oidc_desc": "Configure Single Sign-On via an OpenID Connect provider (Azure AD, Okta, Google, Keycloak, etc.).",
         "oidc_enabled": "Enable OIDC Authentication",
         "oidc_enabled_hint": "Allow users to sign in with an external identity provider",
+        "oidc_prefer_sso": "Prefer SSO login",
+        "oidc_prefer_sso_hint": "Automatically start SSO when OIDC is enabled. Use /login?autoLaunch=0 or a private network address for local password login.",
         "oidc_provider": "Identity Provider",
         "oidc_display_name": "Button Display Name",
         "oidc_display_name_hint": "Text shown on the login button (e.g. Azure AD, Okta)",

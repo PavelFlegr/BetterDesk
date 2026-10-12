@@ -578,6 +578,8 @@
         "oidc_desc": "Configurați Single Sign-On prin intermediul unui furnizor OpenID Connect (Azure AD, Okta, Google, Keycloak etc.).",
         "oidc_enabled": "Activați autentificarea OIDC",
         "oidc_enabled_hint": "Permiteți utilizatorilor să se conecteze cu un furnizor de identitate extern",
+        "oidc_prefer_sso": "Preferă autentificarea SSO",
+        "oidc_prefer_sso_hint": "Porniți automat SSO când OIDC este activat. Folosiți /login?autoLaunch=0 sau o adresă de rețea privată pentru autentificarea locală cu parolă.",
         "oidc_provider": "Furnizor de identitate",
         "oidc_display_name": "Nume afișat butonului",
         "oidc_display_name_hint": "Text afișat pe butonul de conectare (de exemplu, Azure AD, Okta)",

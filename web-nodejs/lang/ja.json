@@ -572,6 +572,8 @@
         "oidc_desc": "OpenID Connect プロバイダー (Azure AD、Okta、Google、Keycloak など) を介してシングル サインオンを構成します。",
         "oidc_enabled": "OIDC 認証を有効にする",
         "oidc_enabled_hint": "ユーザーが外部 ID プロバイダーを使用してサインインできるようにする",
+        "oidc_prefer_sso": "SSOログインを優先",
+        "oidc_prefer_sso_hint": "OIDCが有効なときにSSOを自動的に開始します。ローカルパスワードログインには /login?autoLaunch=0 またはプライベートネットワークアドレスを使用してください。",
         "oidc_provider": "アイデンティティプロバイダー",
         "oidc_display_name": "ボタンの表示名",
         "oidc_display_name_hint": "ログイン ボタンに表示されるテキスト (例: Azure AD、Okta)",

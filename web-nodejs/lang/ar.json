@@ -579,6 +579,8 @@
         "oidc_desc": "قم بتكوين تسجيل الدخول الموحد عبر موفر OpenID Connect (Azure AD، وOkta، وGoogle، وKeycloak، وما إلى ذلك).",
         "oidc_enabled": "تمكين مصادقة OIDC",
         "oidc_enabled_hint": "السماح للمستخدمين بتسجيل الدخول باستخدام موفر هوية خارجي",
+        "oidc_prefer_sso": "تفضيل تسجيل الدخول عبر SSO",
+        "oidc_prefer_sso_hint": "بدء SSO تلقائياً عند تفعيل OIDC. استخدم /login?autoLaunch=0 أو عنوان شبكة خاص لتسجيل الدخول المحلي بكلمة مرور.",
         "oidc_provider": "موفر الهوية",
         "oidc_display_name": "اسم عرض الزر",
         "oidc_display_name_hint": "النص المعروض على زر تسجيل الدخول (على سبيل المثال Azure AD، Okta)",

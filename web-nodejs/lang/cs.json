@@ -572,6 +572,8 @@
         "oidc_desc": "Nastavte jednotné přihlášení přes poskytovatele OpenID Connect (Azure AD, Okta, Google, Keycloak atd.).",
         "oidc_enabled": "Povolit ověřování OIDC",
         "oidc_enabled_hint": "Umožnit uživatelům přihlášení přes externího poskytovatele identity",
+        "oidc_prefer_sso": "Upřednostnit přihlášení SSO",
+        "oidc_prefer_sso_hint": "Automaticky spustit SSO, když je OIDC povoleno. Pro místní přihlášení heslem použijte /login?autoLaunch=0 nebo privátní síťovou adresu.",
         "oidc_provider": "Poskytovatel identity",
         "oidc_display_name": "Text na přihlašovacím tlačítku",
         "oidc_display_name_hint": "Text zobrazený na přihlašovacím tlačítku (např. Azure AD, Okta)",

@@ -576,6 +576,8 @@
         "oidc_desc": "Konfiguracja Single Sign-On przez dostawcę OpenID Connect (Azure AD, Okta, Google, Keycloak itp.).",
         "oidc_enabled": "Włącz uwierzytelnianie OIDC",
         "oidc_enabled_hint": "Pozwól użytkownikom logować się przez zewnętrznego dostawcę tożsamości",
+        "oidc_prefer_sso": "Preferuj logowanie SSO",
+        "oidc_prefer_sso_hint": "Automatycznie uruchamiaj SSO, gdy OIDC jest włączone. Użyj /login?autoLaunch=0 lub prywatnego adresu sieciowego, aby zalogować się hasłem.",
         "oidc_provider": "Dostawca tożsamości",
         "oidc_display_name": "Tekst na przycisku",
         "oidc_display_name_hint": "Tekst wyświetlany na przycisku logowania (np. Azure AD, Okta)",

@@ -578,6 +578,8 @@
         "oidc_desc": "Konfigurera enkel inloggning via en OpenID Connect-leverantör (Azure AD, Okta, Google, Keycloak, etc.).",
         "oidc_enabled": "Aktivera OIDC-autentisering",
         "oidc_enabled_hint": "Tillåt användare att logga in med en extern identitetsleverantör",
+        "oidc_prefer_sso": "Föredra SSO-inloggning",
+        "oidc_prefer_sso_hint": "Starta SSO automatiskt när OIDC är aktiverat. Använd /login?autoLaunch=0 eller en privat nätverksadress för lokal lösenordsinloggning.",
         "oidc_provider": "Identitetsleverantör",
         "oidc_display_name": "Knappens visningsnamn",
         "oidc_display_name_hint": "Text som visas på inloggningsknappen (t.ex. Azure AD, Okta)",

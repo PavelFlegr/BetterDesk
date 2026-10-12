@@ -572,6 +572,8 @@
         "oidc_desc": "Configureer single sign-on via een OpenID Connect-provider (Azure AD, Okta, Google, Keycloak enz.).",
         "oidc_enabled": "OIDC-authenticatie inschakelen",
         "oidc_enabled_hint": "Gebruikers toestaan zich aan te melden met een externe identiteitsprovider",
+        "oidc_prefer_sso": "SSO-aanmelding verkiezen",
+        "oidc_prefer_sso_hint": "Start SSO automatisch wanneer OIDC is ingeschakeld. Gebruik /login?autoLaunch=0 of een privé-netwerkadres voor lokale aanmelding met wachtwoord.",
         "oidc_provider": "Identiteitsprovider",
         "oidc_display_name": "Weergavenaam van knop",
         "oidc_display_name_hint": "Tekst op de aanmeldknop (bijv. Azure AD, Okta)",

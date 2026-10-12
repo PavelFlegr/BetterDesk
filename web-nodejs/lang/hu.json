@@ -578,6 +578,8 @@
         "oidc_desc": "Konfigurálja az egyszeri bejelentkezést egy OpenID Connect szolgáltatón keresztül (Azure AD, Okta, Google, Keycloak stb.).",
         "oidc_enabled": "Engedélyezze a OIDC hitelesítést",
         "oidc_enabled_hint": "Lehetővé teszi a felhasználók számára, hogy külső identitásszolgáltatóval jelentkezzenek be",
+        "oidc_prefer_sso": "SSO-bejelentkezés előnyben részesítése",
+        "oidc_prefer_sso_hint": "Az SSO automatikus indítása, ha az OIDC engedélyezve van. Helyi jelszavas bejelentkezéshez használja a /login?autoLaunch=0 címet vagy privát hálózati címet.",
         "oidc_provider": "Személyazonosság-szolgáltató",
         "oidc_display_name": "Gomb megjelenített neve",
         "oidc_display_name_hint": "A bejelentkezési gombon megjelenő szöveg (pl. Azure AD, Okta)",
